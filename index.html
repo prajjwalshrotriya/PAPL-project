@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPL Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="btn">
+        <button id="fetchDataButton">Fetch Data</button>
+    </div>
+    <main>
+        <div id="error"></div>
+        <div className='container'>
+            <table>
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th><input type="checkbox" name="" id="selectAll" /></th>
+                    <th>Vehicle No</th>
+                    <th>Imei</th>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Tempr</th>
+                    <th>Ignition</th>
+                    <th>Lattitude</th>
+                    <th>Longitude</th>
+                    <th>Speed</th>
+                    <th>Angle</th>
+                    <th>Odometer</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div> 
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
